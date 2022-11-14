@@ -69,6 +69,10 @@ main > section{
     width: 40%;
 }
 
+.full-container{
+    width: 100%;
+}
+
 /* FOOTER */
 footer{
     background-color: #23272A;
@@ -76,6 +80,7 @@ footer{
 }
 
 .end-page{
+    padding: 10px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -96,8 +101,6 @@ footer{
 .info-list div{
     width: calc(100% / 4);
 }
-
-
 
 
 
@@ -157,7 +160,7 @@ footer{
 
 .info-list div{
     min-height: 500px;
-    border: 1px dashed;
+    border: 1px dashed white;
     background-color: #20B2AA;
 }
 
