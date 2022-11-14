@@ -45,7 +45,28 @@ nav li{
 
 
 /* MAIN */
+/* HEADER MAIN */
+main header{
+    padding: 30px 0;
+    justify-content: center;
+}
 
+/* SECTION */
+main > section{
+    padding: 30px 0;
+}
+
+.gray-bg{
+    background-color: lightgray;
+}
+
+.image{
+    width: 60%;
+}
+
+.text{
+    width: 40%;
+}
 
 /* FOOTER */
 footer{
@@ -78,7 +99,30 @@ footer{
 }
 
 /* MAIN */
+.debug main header{
+    background-color: #00008b;
+}
 
+.debug main header div{
+    min-height: 300px;
+    width: 600px;
+    justify-content: center;
+    background-color: #EE82EE;
+    border: 2px dashed;
+}
+
+.debug .img, .debug .text{
+    min-height: 500px;
+    border: 2px dashed;
+}
+
+.debug .image{
+    background-color: #1E90FF;
+}
+
+.debug .text{
+    background-color: #FFC0CB;
+}
 
 /* FOOTER */
 
