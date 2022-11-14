@@ -4,3 +4,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* REGOLE GENERALI */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* HEADER */
+
+.top-bar{
+    padding: 20px;
+}
+
+.logo{
+    width: 20%;
+    padding: 5px;
+}
+
+nav {
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.login{
+    width: 20%;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/* ---- DEBUG ----- */
+
+/* HEADER */
+.debug header {
+    background-color: lightblue;
+}
+
+.debug header div div,
+.debug header div nav {
+    background-color: goldenrod;
+    border: 1px dashed black;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
