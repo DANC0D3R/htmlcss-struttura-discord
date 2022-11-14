@@ -136,6 +136,7 @@ hr{
     border: 2px dashed;
 }
 
+/* Section Imagine e Testo */
 .debug .img, .debug .text{
     min-height: 500px;
     border: 2px dashed;
@@ -149,6 +150,7 @@ hr{
     background-color: #FFC0CB;
 }
 
+/* Container ultima sezione */
 .full-container{
     min-height: 600px;
     border: 2px dashed;
@@ -156,6 +158,7 @@ hr{
 }
 
 /* FOOTER */
+/* Info */
 .info{
     min-height: 500px;
     border: 2px dashed;
@@ -168,6 +171,7 @@ hr{
     background-color: #20B2AA;
 }
 
+/* Barra Fondo Pagina */
 .end-page{
     background-color: #7FFFD4;
 }
