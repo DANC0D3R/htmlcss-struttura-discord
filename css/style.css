@@ -44,6 +44,20 @@ nav li{
 }
 
 
+/* MAIN */
+
+
+/* FOOTER */
+footer{
+    background-color: #23272A;
+    padding: 10px 0;
+}
+
+.end-page{
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 
@@ -67,3 +81,4 @@ nav li{
 
 
 /* FOOTER */
+
