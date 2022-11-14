@@ -41,6 +41,7 @@ nav li{
 .login{
     width: 20%;
     padding: 5px;
+    text-align: right;
 }
 
 
@@ -79,6 +80,23 @@ footer{
     align-items: center;
 }
 
+ hr{
+    margin: 20px 0;
+ }
+
+.info{
+    width: calc(100% / 3);
+}
+
+.info-list{
+    width: calc(100% / 3 * 2);
+    display: flex;
+}
+
+.info-list div{
+    width: calc(100% / 4);
+}
+
 
 
 
@@ -104,8 +122,8 @@ footer{
 }
 
 .debug main header div{
-    min-height: 300px;
-    width: 600px;
+    min-height: 400px;
+    width: 900px;
     justify-content: center;
     background-color: #EE82EE;
     border: 2px dashed;
@@ -124,5 +142,31 @@ footer{
     background-color: #FFC0CB;
 }
 
-/* FOOTER */
+.full-container{
+    min-height: 600px;
+    border: 2px dashed;
+    background-color: #228b22;
+}
 
+/* FOOTER */
+.info{
+    min-height: 500px;
+    border: 2px dashed;
+    background-color: #F08080;
+}
+
+.info-list div{
+    min-height: 500px;
+    border: 1px dashed;
+    background-color: #20B2AA;
+}
+
+.end-page{
+    background-color: #7FFFD4;
+}
+
+.end-page-item{
+    padding: 5px;
+    border: 2px dashed;
+    background-color: #FFB6C1;
+}
